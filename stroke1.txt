@@ -1,0 +1,544 @@
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 12/08/2023 12:12:55
+New results follow.
+-----------------------------------
+
+RSiena version 1.3.14.1 (05 Feb 23)
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Current random number seed is 2225.
+Effects object used: model_effects 
+Model Type:
+ Standard actor-oriented model
+Estimation method: conditional moment estimation
+.
+Conditioning variable is the total number of observed changes ("distance") 
+in the network variable.
+Distances for simulations are
+period   :   1   2
+distance :   99 107.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  0.5291503.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  0.1  Rate parameter                         4.1274
+  0.2  Rate parameter                         4.4606
+  1. eval:  outdegree (density)                            -0.5837
+  2. eval:  reciprocity                                     0.0000
+  3. eval:  gender_cov alter                                0.0000
+  4. eval:  gender_cov ego                                  0.0000
+  5. eval:  gender_cov ego x gender_cov alter               0.0000
+
+
+Observed values of target statistics are
+  1. Number of ties                                                     663.0000
+  2. Number of reciprocated ties                                         84.0000
+  3. Sum indegrees x gender_cov                                           0.9792
+  4. Sum outdegrees x gender_cov                                        -55.3125
+  5. Sum gender_cov ego x gender_cov alter                               -3.4266
+
+ 5 parameters, 5 statistics
+
+Estimation of derivatives by the LR method (type 1).
+
+
+@2
+End of stochastic approximation algorithm, phase 3.
+---------------------------------------------------
+
+Total of 1763 iterations.
+Parameter estimates based on 762 iterations,
+basic rate parameters as well as 
+convergence diagnostics, covariance and derivative matrices based on 1001 iterations.
+
+Information for convergence diagnosis.
+Averages, standard deviations, and t-ratios for deviations from targets:
+  1.   0.1658  14.5646   0.0114 
+  2.  -0.4735   9.0432  -0.0524 
+  3.  -0.1398   6.6376  -0.0211 
+  4.  -0.2717   6.6064  -0.0411 
+  5.   0.0994   3.3917   0.0293 
+
+Good convergence is indicated by the t-ratios being close to zero.
+
+Overall maximum convergence ratio =  0.0843 .
+
+
+
+@2
+Estimation Results.
+-------------------
+
+Regular end of estimation algorithm.
+Total of 1763 iteration steps.
+
+
+@3
+Estimates and standard errors
+                             
+Rate parameters:
+ 0.1  Rate parameter period 1     7.0468  (   1.0637)
+ 0.2  Rate parameter period 2     7.2059  (   1.0470)
+
+Other parameters:
+ 1. eval:  outdegree (density)                                    -2.2729  (   0.1902)
+ 2. eval:  reciprocity                                            -0.1196  (   0.1819)
+ 3. eval:  gender_cov alter                                       -0.0180  (   0.1222)
+ 4. eval:  gender_cov ego                                         -1.1719  (   0.4700)
+ 5. eval:  gender_cov ego x gender_cov alter                      -0.0817  (   0.2412)
+
+
+@3
+Covariance matrices
+                   
+Covariance matrix of estimates (correlations below diagonal):
+     0.036     -0.008     -0.002      0.078      0.000
+    -0.237      0.033      0.003     -0.011      0.005
+    -0.070      0.128      0.015     -0.003      0.013
+     0.872     -0.123     -0.044      0.221      0.002
+     0.003      0.121      0.445      0.021      0.058
+
+Derivative matrix of expected statistics X by parameters and
+covariance/correlation matrix of X can be found using
+summary(ans) within R, or by using the 'verbose' option in Siena07.
+ 
+Total computation time 20.03 seconds.
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 14/08/2023 19:18:16
+New results follow.
+-----------------------------------
+
+RSiena version 1.3.14.1 (05 Feb 23)
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Current random number seed is 2225.
+Effects object used: model_effects 
+Model Type:
+ Standard actor-oriented model
+Estimation method: conditional moment estimation
+.
+Conditioning variable is the total number of observed changes ("distance") 
+in the network variable.
+Distances for simulations are
+period   :   1   2
+distance :   99 107.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  0.5291503.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  0.1  Rate parameter                         4.1274
+  0.2  Rate parameter                         4.4606
+  1. eval:  outdegree (density)                            -0.5837
+  2. eval:  reciprocity                                     0.0000
+  3. eval:  gender_cov alter                                0.0000
+  4. eval:  gender_cov ego                                  0.0000
+  5. eval:  gender_cov ego x gender_cov alter               0.0000
+
+
+Observed values of target statistics are
+  1. Number of ties                                                     663.0000
+  2. Number of reciprocated ties                                         84.0000
+  3. Sum indegrees x gender_cov                                           0.9792
+  4. Sum outdegrees x gender_cov                                        -55.3125
+  5. Sum gender_cov ego x gender_cov alter                               -3.4266
+
+ 5 parameters, 5 statistics
+
+Estimation of derivatives by the LR method (type 1).
+
+
+@2
+End of stochastic approximation algorithm, phase 3.
+---------------------------------------------------
+
+Total of 1763 iterations.
+Parameter estimates based on 762 iterations,
+basic rate parameters as well as 
+convergence diagnostics, covariance and derivative matrices based on 1001 iterations.
+
+Information for convergence diagnosis.
+Averages, standard deviations, and t-ratios for deviations from targets:
+  1.   0.1658  14.5646   0.0114 
+  2.  -0.4735   9.0432  -0.0524 
+  3.  -0.1398   6.6376  -0.0211 
+  4.  -0.2717   6.6064  -0.0411 
+  5.   0.0994   3.3917   0.0293 
+
+Good convergence is indicated by the t-ratios being close to zero.
+
+Overall maximum convergence ratio =  0.0843 .
+
+
+
+@2
+Estimation Results.
+-------------------
+
+Regular end of estimation algorithm.
+Total of 1763 iteration steps.
+
+
+@3
+Estimates and standard errors
+                             
+Rate parameters:
+ 0.1  Rate parameter period 1     7.0468  (   1.0637)
+ 0.2  Rate parameter period 2     7.2059  (   1.0470)
+
+Other parameters:
+ 1. eval:  outdegree (density)                                    -2.2729  (   0.1902)
+ 2. eval:  reciprocity                                            -0.1196  (   0.1819)
+ 3. eval:  gender_cov alter                                       -0.0180  (   0.1222)
+ 4. eval:  gender_cov ego                                         -1.1719  (   0.4700)
+ 5. eval:  gender_cov ego x gender_cov alter                      -0.0817  (   0.2412)
+
+
+@3
+Covariance matrices
+                   
+Covariance matrix of estimates (correlations below diagonal):
+     0.036     -0.008     -0.002      0.078      0.000
+    -0.237      0.033      0.003     -0.011      0.005
+    -0.070      0.128      0.015     -0.003      0.013
+     0.872     -0.123     -0.044      0.221      0.002
+     0.003      0.121      0.445      0.021      0.058
+
+Derivative matrix of expected statistics X by parameters and
+covariance/correlation matrix of X can be found using
+summary(ans) within R, or by using the 'verbose' option in Siena07.
+ 
+Total computation time 24.29 seconds.
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 14/08/2023 21:35:05
+New results follow.
+-----------------------------------
+
+RSiena version 1.3.14.1 (05 Feb 23)
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Current random number seed is 2225.
+Effects object used: model_effects 
+Model Type:
+Network 1 stroke_dv : Standard actor-oriented model
+Network 2 health_dv : Standard actor-oriented model
+Estimation method: unconditional moment estimation
+.
+
+Time duration for simulations in each period is 1.0.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  0.5291503.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  1. rate:  constant stroke_dv rate (period 1)                     4.1274
+  2. rate:  constant stroke_dv rate (period 2)                     4.4606
+  3. eval:  stroke_dv: outdegree (density)                        -0.5837
+  4. eval:  stroke_dv: reciprocity                                 0.0000
+  5. eval:  stroke_dv: gender_cov alter                            0.0000
+  6. eval:  stroke_dv: gender_cov ego                              0.0000
+  7. eval:  stroke_dv: gender_cov ego x gender_cov alter           0.0000
+  8. eval:  stroke_dv: handedness_cov similarity                   0.0000
+  9. eval:  stroke_dv: lesionside_cov alter                        0.0000
+ 10. eval:  stroke_dv: lesionside_cov ego                          0.0000
+ 11. eval:  stroke_dv: lesionside_cov ego x lesionside_cov alter   0.0000
+ 12. rate:  constant health_dv rate (period 1)                    16.3306
+ 13. rate:  constant health_dv rate (period 2)                    18.2464
+ 14. eval:  health_dv: outdegree (density)                        -1.0712
+ 15. eval:  health_dv: reciprocity                                 0.0000
+
+
+Observed values of target statistics are
+  1. Amount of network change in period 1                                99.0000
+  2. Amount of network change in period 2                               107.0000
+  3. stroke_dv: Number of ties                                          663.0000
+  4. stroke_dv: Number of reciprocated ties                              84.0000
+  5. stroke_dv: Sum indegrees x gender_cov                                0.9792
+  6. stroke_dv: Sum outdegrees x gender_cov                             -55.3125
+  7. stroke_dv: Sum gender_cov ego x gender_cov alter                    -3.4266
+  8. stroke_dv: Similarity on handedness_cov                            -90.3271
+  9. stroke_dv: Sum indegrees x lesionside_cov                           -3.4583
+ 10. stroke_dv: Sum outdegrees x lesionside_cov                         117.1250
+ 11. stroke_dv: Sum lesionside_cov ego x lesionside_cov alter            -4.2483
+ 12. Amount of network change in period 1                               392.0000
+ 13. Amount of network change in period 2                               438.0000
+ 14. health_dv: Number of ties                                          482.0000
+ 15. health_dv: Number of reciprocated ties                              66.0000
+
+ 15 parameters, 15 statistics
+
+Estimation of derivatives by the LR method (type 1).
+
+
+@2
+End of stochastic approximation algorithm, phase 3.
+---------------------------------------------------
+
+Total of 2163 iterations.
+Parameter estimates based on 1162 iterations,
+convergence diagnostics, covariance and derivative matrices based on 1001 iterations.
+
+Information for convergence diagnosis.
+Averages, standard deviations, and t-ratios for deviations from targets:
+  1. -10.8012   8.9372  -1.2086 
+  2.   0.0470   9.8561   0.0048 
+  3.  -2.1808  13.4503  -0.1621 
+  4.   7.1928   9.2760   0.7754 
+  5.  29.7262   6.3039   4.7155 
+  6.   4.0403   6.6343   0.6090 
+  7.   3.0147   3.1753   0.9494 
+  8.   9.0573   5.5402   1.6348 
+  9.   6.2783   6.4480   0.9737 
+ 10.   7.6927   6.8377   1.1250 
+ 11.  -3.0501   3.4025  -0.8964 
+ 12. -91.5794  13.8240  -6.6247 
+ 13.   0.1319  14.4018   0.0092 
+ 14. -28.9800  20.1786  -1.4362 
+ 15.  -8.2298  10.6965  -0.7694 
+
+Good convergence is indicated by the t-ratios being close to zero.
+
+Overall maximum convergence ratio =  10.0124 .
+One or more of the t-statistics are rather large.
+Convergence of the algorithm is doubtful.
+
+
+
+@2
+Estimation Results.
+-------------------
+
+Regular end of estimation algorithm.
+Total of 2163 iteration steps.
+
+
+@3
+Estimates and standard errors
+                             
+ 1. rate:  constant stroke_dv rate (period 1)                      6.3850  (   1.5255)
+ 2. rate:  constant stroke_dv rate (period 2)                      7.5580  (   1.3191)
+ 3. eval:  stroke_dv: outdegree (density)                         -3.4840  (   1.2264)
+ 4. eval:  stroke_dv: reciprocity                                  0.2471  (   0.1937)
+ 5. eval:  stroke_dv: gender_cov alter                             0.6627  (   0.2804)
+ 6. eval:  stroke_dv: gender_cov ego                              -1.5747  (   0.7450)
+ 7. eval:  stroke_dv: gender_cov ego x gender_cov alter            0.4558  (   0.5468)
+ 8. eval:  stroke_dv: handedness_cov similarity                    0.8533  (   0.4855)
+ 9. eval:  stroke_dv: lesionside_cov alter                         0.0900  (   0.1956)
+10. eval:  stroke_dv: lesionside_cov ego                           3.5827  (   2.1185)
+11. eval:  stroke_dv: lesionside_cov ego x lesionside_cov alter   -0.4228  (   0.4932)
+12. rate:  constant health_dv rate (period 1)                   1231.0054  ( 228.5731)
+13. rate:  constant health_dv rate (period 2)                     21.8255  (   2.0637)
+14. eval:  health_dv: outdegree (density)                         -1.2029  (   0.0827)
+15. eval:  health_dv: reciprocity                                  0.1853  (   0.2032)
+
+
+@3
+Covariance matrices
+                   
+Covariance matrix of estimates (correlations below diagonal):
+     2.327     -1.094      1.495     -0.020     -0.294      0.811     -0.515     -0.329      0.071     -2.582     -0.410   -291.186      0.011      0.096     -0.225
+    -0.544      1.740     -1.096     -0.010      0.212     -0.568      0.433      0.197     -0.040      1.799      0.328    204.561      0.459     -0.072      0.161
+     0.799     -0.677      1.504     -0.024     -0.267      0.742     -0.508     -0.362      0.054     -2.573     -0.350   -257.355      0.019      0.088     -0.201
+    -0.069     -0.041     -0.102      0.038      0.002     -0.012      0.003      0.029     -0.002      0.041     -0.007     -0.597     -0.013      0.001      0.000
+    -0.686      0.573     -0.777      0.031      0.079     -0.155      0.119      0.051     -0.017      0.438      0.076     51.599      0.003     -0.017      0.033
+     0.713     -0.578      0.813     -0.083     -0.742      0.555     -0.326     -0.161      0.033     -1.239     -0.214   -140.245     -0.073      0.050     -0.117
+    -0.618      0.600     -0.757      0.031      0.778     -0.799      0.299      0.093     -0.029      0.829      0.158     98.251     -0.004     -0.035      0.069
+    -0.444      0.308     -0.607      0.312      0.377     -0.446      0.351      0.236     -0.006      0.649      0.038     50.873     -0.112     -0.017      0.039
+     0.239     -0.157      0.224     -0.041     -0.315      0.223     -0.267     -0.062      0.038     -0.085     -0.061    -15.184     -0.031      0.004     -0.006
+    -0.799      0.644     -0.990      0.101      0.738     -0.785      0.716      0.631     -0.204      4.488      0.567    432.774     -0.145     -0.147      0.336
+    -0.545      0.505     -0.578     -0.074      0.547     -0.582      0.585      0.161     -0.627      0.543      0.243     79.471      0.058     -0.028      0.063
+    -0.835      0.678     -0.918     -0.013      0.805     -0.824      0.786      0.458     -0.340      0.894      0.705  52245.657     13.773    -17.789     37.978
+     0.004      0.169      0.007     -0.033      0.005     -0.047     -0.003     -0.111     -0.076     -0.033      0.057      0.029      4.259     -0.005      0.036
+     0.764     -0.662      0.872      0.044     -0.748      0.806     -0.768     -0.425      0.277     -0.842     -0.683     -0.941     -0.030      0.007     -0.014
+    -0.725      0.600     -0.806     -0.010      0.587     -0.772      0.623      0.397     -0.156      0.781      0.625      0.818      0.086     -0.858      0.041
+
+Derivative matrix of expected statistics X by parameters and
+covariance/correlation matrix of X can be found using
+summary(ans) within R, or by using the 'verbose' option in Siena07.
+ 
+Total computation time 655.85 seconds.
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 15/08/2023 00:26:26
+New results follow.
+-----------------------------------
+
+RSiena version 1.3.14.1 (05 Feb 23)
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Current random number seed is 2225.
+Effects object used: model_effects 
+Model Type:
+Network 1 stroke_dv : Standard actor-oriented model
+Network 2 health_dv : Standard actor-oriented model
+Estimation method: unconditional moment estimation
+.
+
+Time duration for simulations in each period is 1.0.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  0.5291503.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  1. rate:  constant stroke_dv rate (period 1)                     4.1274
+  2. rate:  constant stroke_dv rate (period 2)                     4.4606
+  3. eval:  stroke_dv: outdegree (density)                        -0.5837
+  4. eval:  stroke_dv: reciprocity                                 0.0000
+  5. eval:  stroke_dv: gender_cov alter                            0.0000
+  6. eval:  stroke_dv: gender_cov ego                              0.0000
+  7. eval:  stroke_dv: gender_cov ego x gender_cov alter           0.0000
+  8. eval:  stroke_dv: handedness_cov similarity                   0.0000
+  9. eval:  stroke_dv: lesionside_cov alter                        0.0000
+ 10. eval:  stroke_dv: lesionside_cov ego                          0.0000
+ 11. eval:  stroke_dv: lesionside_cov ego x lesionside_cov alter   0.0000
+ 12. rate:  constant health_dv rate (period 1)                    16.3306
+ 13. rate:  constant health_dv rate (period 2)                    18.2464
+ 14. eval:  health_dv: outdegree (density)                        -1.0712
+ 15. eval:  health_dv: reciprocity                                 0.0000
+
+
+Observed values of target statistics are
+  1. Amount of network change in period 1                                99.0000
+  2. Amount of network change in period 2                               107.0000
+  3. stroke_dv: Number of ties                                          663.0000
+  4. stroke_dv: Number of reciprocated ties                              84.0000
+  5. stroke_dv: Sum indegrees x gender_cov                                0.9792
+  6. stroke_dv: Sum outdegrees x gender_cov                             -55.3125
+  7. stroke_dv: Sum gender_cov ego x gender_cov alter                    -3.4266
+  8. stroke_dv: Similarity on handedness_cov                            -90.3271
+  9. stroke_dv: Sum indegrees x lesionside_cov                           -3.4583
+ 10. stroke_dv: Sum outdegrees x lesionside_cov                         117.1250
+ 11. stroke_dv: Sum lesionside_cov ego x lesionside_cov alter            -4.2483
+ 12. Amount of network change in period 1                               392.0000
+ 13. Amount of network change in period 2                               438.0000
+ 14. health_dv: Number of ties                                          482.0000
+ 15. health_dv: Number of reciprocated ties                              66.0000
+
+ 15 parameters, 15 statistics
+
+Estimation of derivatives by the LR method (type 1).
+
+
+@2
+End of stochastic approximation algorithm, phase 3.
+---------------------------------------------------
+
+Total of 2163 iterations.
+Parameter estimates based on 1162 iterations,
+convergence diagnostics, covariance and derivative matrices based on 1001 iterations.
+
+Information for convergence diagnosis.
+Averages, standard deviations, and t-ratios for deviations from targets:
+  1. -10.8012   8.9372  -1.2086 
+  2.   0.0470   9.8561   0.0048 
+  3.  -2.1808  13.4503  -0.1621 
+  4.   7.1928   9.2760   0.7754 
+  5.  29.7262   6.3039   4.7155 
+  6.   4.0403   6.6343   0.6090 
+  7.   3.0147   3.1753   0.9494 
+  8.   9.0573   5.5402   1.6348 
+  9.   6.2783   6.4480   0.9737 
+ 10.   7.6927   6.8377   1.1250 
+ 11.  -3.0501   3.4025  -0.8964 
+ 12. -91.5794  13.8240  -6.6247 
+ 13.   0.1319  14.4018   0.0092 
+ 14. -28.9800  20.1786  -1.4362 
+ 15.  -8.2298  10.6965  -0.7694 
+
+Good convergence is indicated by the t-ratios being close to zero.
+
+Overall maximum convergence ratio =  10.0124 .
+One or more of the t-statistics are rather large.
+Convergence of the algorithm is doubtful.
+
+
+
+@2
+Estimation Results.
+-------------------
+
+Regular end of estimation algorithm.
+Total of 2163 iteration steps.
+
+
+@3
+Estimates and standard errors
+                             
+ 1. rate:  constant stroke_dv rate (period 1)                      6.3850  (   1.5255)
+ 2. rate:  constant stroke_dv rate (period 2)                      7.5580  (   1.3191)
+ 3. eval:  stroke_dv: outdegree (density)                         -3.4840  (   1.2264)
+ 4. eval:  stroke_dv: reciprocity                                  0.2471  (   0.1937)
+ 5. eval:  stroke_dv: gender_cov alter                             0.6627  (   0.2804)
+ 6. eval:  stroke_dv: gender_cov ego                              -1.5747  (   0.7450)
+ 7. eval:  stroke_dv: gender_cov ego x gender_cov alter            0.4558  (   0.5468)
+ 8. eval:  stroke_dv: handedness_cov similarity                    0.8533  (   0.4855)
+ 9. eval:  stroke_dv: lesionside_cov alter                         0.0900  (   0.1956)
+10. eval:  stroke_dv: lesionside_cov ego                           3.5827  (   2.1185)
+11. eval:  stroke_dv: lesionside_cov ego x lesionside_cov alter   -0.4228  (   0.4932)
+12. rate:  constant health_dv rate (period 1)                   1231.0054  ( 228.5731)
+13. rate:  constant health_dv rate (period 2)                     21.8255  (   2.0637)
+14. eval:  health_dv: outdegree (density)                         -1.2029  (   0.0827)
+15. eval:  health_dv: reciprocity                                  0.1853  (   0.2032)
+
+
+@3
+Covariance matrices
+                   
+Covariance matrix of estimates (correlations below diagonal):
+     2.327     -1.094      1.495     -0.020     -0.294      0.811     -0.515     -0.329      0.071     -2.582     -0.410   -291.186      0.011      0.096     -0.225
+    -0.544      1.740     -1.096     -0.010      0.212     -0.568      0.433      0.197     -0.040      1.799      0.328    204.561      0.459     -0.072      0.161
+     0.799     -0.677      1.504     -0.024     -0.267      0.742     -0.508     -0.362      0.054     -2.573     -0.350   -257.355      0.019      0.088     -0.201
+    -0.069     -0.041     -0.102      0.038      0.002     -0.012      0.003      0.029     -0.002      0.041     -0.007     -0.597     -0.013      0.001      0.000
+    -0.686      0.573     -0.777      0.031      0.079     -0.155      0.119      0.051     -0.017      0.438      0.076     51.599      0.003     -0.017      0.033
+     0.713     -0.578      0.813     -0.083     -0.742      0.555     -0.326     -0.161      0.033     -1.239     -0.214   -140.245     -0.073      0.050     -0.117
+    -0.618      0.600     -0.757      0.031      0.778     -0.799      0.299      0.093     -0.029      0.829      0.158     98.251     -0.004     -0.035      0.069
+    -0.444      0.308     -0.607      0.312      0.377     -0.446      0.351      0.236     -0.006      0.649      0.038     50.873     -0.112     -0.017      0.039
+     0.239     -0.157      0.224     -0.041     -0.315      0.223     -0.267     -0.062      0.038     -0.085     -0.061    -15.184     -0.031      0.004     -0.006
+    -0.799      0.644     -0.990      0.101      0.738     -0.785      0.716      0.631     -0.204      4.488      0.567    432.774     -0.145     -0.147      0.336
+    -0.545      0.505     -0.578     -0.074      0.547     -0.582      0.585      0.161     -0.627      0.543      0.243     79.471      0.058     -0.028      0.063
+    -0.835      0.678     -0.918     -0.013      0.805     -0.824      0.786      0.458     -0.340      0.894      0.705  52245.657     13.773    -17.789     37.978
+     0.004      0.169      0.007     -0.033      0.005     -0.047     -0.003     -0.111     -0.076     -0.033      0.057      0.029      4.259     -0.005      0.036
+     0.764     -0.662      0.872      0.044     -0.748      0.806     -0.768     -0.425      0.277     -0.842     -0.683     -0.941     -0.030      0.007     -0.014
+    -0.725      0.600     -0.806     -0.010      0.587     -0.772      0.623      0.397     -0.156      0.781      0.625      0.818      0.086     -0.858      0.041
+
+Derivative matrix of expected statistics X by parameters and
+covariance/correlation matrix of X can be found using
+summary(ans) within R, or by using the 'verbose' option in Siena07.
+ 
+Total computation time 693.14 seconds.
