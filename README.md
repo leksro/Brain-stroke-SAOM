@@ -14,3 +14,4 @@ All subjects were recruited and underwent the same neuroimaging and behavioural 
 visits, i.e. 2 weeks, 3 months and 1 year after the stroke onset. Healthy controls only had two longitudinal visits at a distance of about 3 months. 
 Neuropsychological behavioural data were measured by assessing six different functional domains, i.e. (i) spatial attention assessing visual attention to the contralesional hemifield, (ii) spatial memory, (iii) verbal memory, (iv) global language both comprehension and production, (v) contralesional motor and (vi) contralesional visual field. 
 
+A temporal analysis using RSiena has been conducted here.  
